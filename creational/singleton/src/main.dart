@@ -13,5 +13,5 @@ void main() async {
   await (singletonExample.exampleFlutterSingleton());
 
   print('\n=== Example 4: Eager Singleton ===');
-  singletonExample.exampleEagerSingleton();
+  singletonExample.exampleLoggerSingleton();
 }

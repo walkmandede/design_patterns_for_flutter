@@ -52,7 +52,7 @@ class SingletonExample {
     print('Same instance? ${identical(settings1, settings2)}'); // true
   }
 
-  void exampleEagerSingleton() {
+  void exampleLoggerSingleton() {
     // Instance is created as soon as the class is first referenced
     var logger1 = Logger();
     logger1.log('Application started');
